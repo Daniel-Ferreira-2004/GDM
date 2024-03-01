@@ -1,0 +1,37 @@
+@media screen and (min-width: 1024px){
+    .GDM__dev {
+        display: flex;
+        justify-content: space-between;
+        margin: 4em;
+    }
+    
+    .GDM__gameplay {
+        border: 1px solid black;
+        max-width: 35vw;
+        max-height: 10vw;
+        text-align: center;
+        border-radius: 16px;
+    }
+}
+
+
+@media screen and (min-width: 1440px){
+
+    .GDM__dev {
+        display: flex;
+        justify-content: space-between;
+        margin: 4em;
+    }
+
+    .GDM__gameplay {
+        border: 1px solid black;
+        max-width: 35vw;
+        max-height: 6vw;
+        text-align: center;
+        border-radius: 16px;
+    }
+
+    .GDM__imagem__jogo {
+        display: block;
+    }
+}

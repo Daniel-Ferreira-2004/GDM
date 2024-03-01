@@ -1,0 +1,85 @@
+.GDM__pc {
+   margin: 2em;
+}
+
+
+.GDM__gameplay{
+    padding: 2em;
+    display: flex;
+}
+
+.GDM__imagem__jogo{
+    display: block;
+}
+
+.GDM__texto{
+    padding: 4px;
+}
+.imagem__gdm {
+    padding-right: 1em;
+    padding-bottom: -1em;
+}
+
+.contato__imagem {
+    padding: 1em;
+}
+
+.GDM__trailer{
+    margin: 2em;
+    text-align: center;
+}
+
+.trailer__subtitulo {
+    padding: 0.5em;
+}
+
+.trailer {
+    width: 100%;
+    height: 45vw;
+    border-radius: 16px;
+}
+
+
+@media screen and (min-width: 1024px) {
+    .GDM__pc {
+        display: block;
+        text-align: center;
+    }
+    .GDM__gameplay__trailer{
+        padding: 1em;
+        border: 1px solid black;
+        margin: 1em;
+        text-align: center;
+        display: block;
+    }
+
+    .trailer {
+        width: 50vw;
+        height: 25vw;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+
+    .GDM__pc {
+        align-items: center;
+        text-align: center;
+        font-family: var(--fonte-principal);
+        display: flex;
+    }
+
+    .GDM__gameplay__trailer{
+        padding: 1em;
+        border: 1px solid black;
+        margin: 1em;
+        text-align: start;
+        justify-content: space-between;
+        display: flex;
+    }
+
+    .trailer {
+        width: 20vw;
+        height: 10vw;
+    }
+}
+

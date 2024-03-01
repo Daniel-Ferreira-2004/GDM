@@ -1,0 +1,48 @@
+.swiper__subtitulo {
+    font-size: 16px;
+}
+
+.swiper-slide img{
+    width: 100%;
+}
+
+.swiper-pagination {
+    position: initial;
+    margin: 0.5em 0;
+}
+
+.mobile {
+    display: none;
+}
+
+.swiper-wrapper {
+    align-items: center;
+    text-align: center;
+}
+
+.carrocel {
+    text-align: center;
+}
+
+.carrocel__subtitulo {
+    font-size: 18px;
+    color: black;
+}
+
+@media screen and (min-width: 1024px){
+
+    .carrocel__subtitulo {
+        padding: 1.5em;
+    }
+
+    .swiper-slide {
+        padding: 2em;
+        max-width: 9vw;
+    }
+
+    .swiper__subtitulo {
+        font-size: 18px;
+    }
+    
+}
+

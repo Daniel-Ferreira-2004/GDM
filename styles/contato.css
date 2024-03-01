@@ -1,0 +1,87 @@
+.boas__vindas__email {
+    background-color: #3b91ac;
+    padding: 1.5em;
+    color: var(--cor-branco);
+}
+
+.contato__faixa {
+    text-align: center;
+    background-color: #6c8f99;
+    color: var(--cor-noturno);
+    font-size: 14px;
+    padding: 0.8em;
+}
+
+.contato__explicaçao {
+    text-align: center;
+    margin: 0em 1.5em 0em 1.5em;
+}
+
+.contato__imagem {
+    padding-bottom: 0.5em;
+}
+
+.contato__explicaçao-subtitulo,
+.contato__explicaçao-texto {
+    text-align: start;
+    padding: 0.3em;
+}
+
+.email-box{
+  padding: 1.5em 2em;
+}
+
+.box {
+    text-align: start;
+    background-image: url(../img/iconeNickname\ 1.svg);
+    background-repeat: no-repeat;
+    background-position: left;
+    padding: 0.6em;
+    border-bottom-left-radius: 1em;
+    border-top-right-radius: 1em;
+    width: 95%;
+    padding-left: 2em;
+    color: #898989;
+    font-size: 18px;
+}
+
+.box__apelido {
+    padding-bottom: 0.8em;
+    font-size: 18px;
+}
+
+.email {
+    background-image: url(../img/iconeEmail\ 1.svg);
+}
+
+.assunto {
+    background-image: none;
+    height: 50vw;
+    border-bottom-left-radius: 2em;
+    border-top-right-radius: 2em;
+    word-wrap: nowrap;
+}
+
+.botao__contato {
+    border: 1px solid black;
+    padding: 1em 3em;
+    text-decoration: none;
+    background-color: #7BD651;
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 0px 4px 0px rgb(77, 76, 76);
+}
+
+.botoes__contato {
+    text-align: center;
+    padding: 1em 0 2em 0;
+}
+
+@media screen and (min-width: 1024px){
+
+    .assunto {
+        height: 25vw;
+    }
+
+}

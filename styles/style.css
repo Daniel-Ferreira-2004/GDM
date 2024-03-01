@@ -1,0 +1,22 @@
+@import url(header.css);
+@import url(saiba-mais.css);
+@import url(carrocel.css);
+@import url(rodape.css);
+@import url(contato.css);
+@import url(GDM\ Games.css);
+@import url(GDM\ dev.css);
+
+:root {
+    --cor-de-fundo: #E6E4E4;
+    --cor-branco: #FFFFFF;
+    --fonte-principal:'Quicksand', sans-serif;
+    --cor-secundaria: #444343;
+    --cor-noturno:#ffffffa2;
+
+}
+
+body{
+    background-color: var(--cor-de-fundo);
+    font-size: 16px;
+    font-family: var(--fonte-principal);
+}
